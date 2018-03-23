@@ -1,9 +1,9 @@
 //
 //  MSSlidingViewManager.m
-//  musikid - DEMO
+//  BottomBounced
 //
-//  Created by Cstye on 15/12/28.
-//  Copyright © 2015年 com.musikid. All rights reserved.
+//  Created by 田晓梦 on 16/7/5.
+//  Copyright © 2016年 田晓梦. All rights reserved.
 //
 
 #import "MSSlidingViewManager.h"

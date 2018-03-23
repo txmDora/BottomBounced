@@ -15,6 +15,11 @@
 		3E028FDB20649B7D00B7478F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E028FDA20649B7D00B7478F /* main.m */; };
 		3E028FE520649B7D00B7478F /* BottomBouncedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E028FE420649B7D00B7478F /* BottomBouncedTests.m */; };
 		3E028FF020649B7D00B7478F /* BottomBouncedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E028FEF20649B7D00B7478F /* BottomBouncedUITests.m */; };
+		3E0290052064A07E00B7478F /* MKSupportPrijectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E028FFD2064A07D00B7478F /* MKSupportPrijectView.xib */; };
+		3E0290062064A07E00B7478F /* SupportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0290002064A07D00B7478F /* SupportTableViewCell.m */; };
+		3E0290072064A07E00B7478F /* MSSlidingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0290012064A07E00B7478F /* MSSlidingViewManager.m */; };
+		3E0290082064A07E00B7478F /* SupportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0290022064A07E00B7478F /* SupportTableViewCell.xib */; };
+		3E0290092064A07E00B7478F /* MKSupportPrijectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0290042064A07E00B7478F /* MKSupportPrijectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		3E028FEB20649B7D00B7478F /* BottomBouncedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomBouncedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E028FEF20649B7D00B7478F /* BottomBouncedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomBouncedUITests.m; sourceTree = "<group>"; };
 		3E028FF120649B7D00B7478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E028FFD2064A07D00B7478F /* MKSupportPrijectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKSupportPrijectView.xib; sourceTree = "<group>"; };
+		3E028FFE2064A07D00B7478F /* MSSlidingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSlidingViewManager.h; sourceTree = "<group>"; };
+		3E028FFF2064A07D00B7478F /* SupportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportTableViewCell.h; sourceTree = "<group>"; };
+		3E0290002064A07D00B7478F /* SupportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportTableViewCell.m; sourceTree = "<group>"; };
+		3E0290012064A07E00B7478F /* MSSlidingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSlidingViewManager.m; sourceTree = "<group>"; };
+		3E0290022064A07E00B7478F /* SupportTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportTableViewCell.xib; sourceTree = "<group>"; };
+		3E0290032064A07E00B7478F /* MKSupportPrijectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSupportPrijectView.h; sourceTree = "<group>"; };
+		3E0290042064A07E00B7478F /* MKSupportPrijectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSupportPrijectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				3E028FCC20649B7D00B7478F /* AppDelegate.m */,
 				3E028FCE20649B7D00B7478F /* ViewController.h */,
 				3E028FCF20649B7D00B7478F /* ViewController.m */,
+				3E0290032064A07E00B7478F /* MKSupportPrijectView.h */,
+				3E0290042064A07E00B7478F /* MKSupportPrijectView.m */,
+				3E028FFD2064A07D00B7478F /* MKSupportPrijectView.xib */,
+				3E028FFE2064A07D00B7478F /* MSSlidingViewManager.h */,
+				3E0290012064A07E00B7478F /* MSSlidingViewManager.m */,
+				3E028FFF2064A07D00B7478F /* SupportTableViewCell.h */,
+				3E0290002064A07D00B7478F /* SupportTableViewCell.m */,
+				3E0290022064A07E00B7478F /* SupportTableViewCell.xib */,
 				3E028FD120649B7D00B7478F /* Main.storyboard */,
 				3E028FD420649B7D00B7478F /* Assets.xcassets */,
 				3E028FD620649B7D00B7478F /* LaunchScreen.storyboard */,
@@ -239,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E028FD820649B7D00B7478F /* LaunchScreen.storyboard in Resources */,
+				3E0290082064A07E00B7478F /* SupportTableViewCell.xib in Resources */,
 				3E028FD520649B7D00B7478F /* Assets.xcassets in Resources */,
+				3E0290052064A07E00B7478F /* MKSupportPrijectView.xib in Resources */,
 				3E028FD320649B7D00B7478F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0290072064A07E00B7478F /* MSSlidingViewManager.m in Sources */,
 				3E028FD020649B7D00B7478F /* ViewController.m in Sources */,
+				3E0290062064A07E00B7478F /* SupportTableViewCell.m in Sources */,
 				3E028FDB20649B7D00B7478F /* main.m in Sources */,
+				3E0290092064A07E00B7478F /* MKSupportPrijectView.m in Sources */,
 				3E028FCD20649B7D00B7478F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
